@@ -5,7 +5,7 @@ const savee = document.getElementById('save-el');
 const sevish = document.getElementById('save');
 
 function increment() {
- countTr += 1;
+ countTr++;
 btton.innerText = countTr;
 
 }
