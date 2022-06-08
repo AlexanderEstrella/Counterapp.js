@@ -5,8 +5,8 @@ const savee = document.getElementById('save-el');
 const sevish = document.getElementById('save');
 
 function increment() {
- countTr++;
-btton.innerText = countTr++;
+ countTr += 1;
+btton.innerText = countTr;
 
 }
 document.getElementById('increase').addEventListener('click', () => {
