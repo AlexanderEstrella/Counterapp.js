@@ -1,8 +1,8 @@
 
 let countTr = 0;
-const btton = document.getElementById('count-el');
-const savee = document.getElementById('save-el');
-const sevish = document.getElementById('save');
+let btton = document.getElementById('count-el');
+let savee = document.getElementById('save-el');
+let sevish = document.getElementById('save');
 
 function increment() {
  countTr += 1;
