@@ -1,12 +1,12 @@
 
-let count = 0;
+let countTr = 0;
 const btton = document.getElementById('count-el');
 const savee = document.getElementById('save-el');
 const sevish = document.getElementById('save');
 
 function increment() {
  countTr++;
-btton.innerText = countTr;
+btton.innerText = countTr++;
 
 }
 document.getElementById('increase').addEventListener('click', () => {
@@ -14,13 +14,13 @@ document.getElementById('increase').addEventListener('click', () => {
 })
 
 function saveIt(){
-console.log(count);
+console.log(countTr);
 }
 
 document.getElementById('save').addEventListener("click", () => {
 
     saveIt();
-    savee.innerHTML += " " + count + " - ";
+    savee.innerHTML += " " + countTr + " - ";
     let countTr = 0;
 })
 
