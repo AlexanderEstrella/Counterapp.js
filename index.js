@@ -21,7 +21,8 @@ document.getElementById('save').addEventListener("click", () => {
 
     saveIt();
     savee.innerHTML += " " + count + " - ";
-    count = 0
+    let count = new count 
+     count = 0;
 })
 
 
