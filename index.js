@@ -21,7 +21,7 @@ document.getElementById('save').addEventListener("click", () => {
 
     saveIt();
     savee.innerHTML += " " + count + " - ";
-    btton.innerText = "0"
+    count = 0
 })
 
 
