@@ -7,7 +7,7 @@ function increment() {
  count += 1;
 btton.textContent = count;
 }
-document.document.getElementById('increase').addEventListener('click', function () {
+document.getElementById('increase').addEventListener('click', function () {
 increment();
 
 })
