@@ -10,8 +10,8 @@ btton.textContent = count
 }
 function save(){
  let countTr = count + '-'
- savee.textContent += countTr
- btton.textContent = 0
+ savee.innerText += countTr
+ btton.innerText = 0
  count = 0
  
 }
