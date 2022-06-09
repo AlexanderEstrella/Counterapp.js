@@ -7,7 +7,7 @@ function increment() {
  count += 1;
 btton.textContent = count;
 }
-document.getElementById('increase').addEventListener('click', function () {
+document.getElementById('increase').addEventListener('click',  () => {
 increment();
 
 })
@@ -17,7 +17,7 @@ function save(){
  btton.innerText = 0;
  count = 0;
 }
-document.getElementById('save').addEventListener('click', function () {
+document.getElementById('save').addEventListener('click', () => {
 save();
 
 })
