@@ -17,7 +17,7 @@ function save(){
  btton.innerText = 0;
  count = 0;
 }
-document.document.getElementById('save').addEventListener('click', function () {
+document.getElementById('save').addEventListener('click', function () {
 save();
 
 })
